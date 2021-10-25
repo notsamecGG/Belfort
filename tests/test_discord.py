@@ -17,4 +17,4 @@ async def test_cmd(ctxt):
 async def ping(ctxt):
     await ctxt.send(f'{int(client.latency * 1e3)}ms')
 
-client.run('OTAxNzgyMjI1MTE5NDg2MDAy.YXU4JA.EMt-_olaNyZeyTzqMEZrypowSao')
+client.run(API)
